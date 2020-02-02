@@ -9,8 +9,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    
     var body: some View {
         
     HStack{
@@ -18,52 +16,65 @@ struct ContentView: View {
             Text("H")
                 .font(.title)
                 .fontWeight(.semibold)
+              .padding(.bottom, 40.0)
             Divider()
             
             .frame(width: 40.0)
-               Text("6")
-               .font(.caption)
-
+            VStack{
+              Text("6")
+              Divider()
+              Text("7")
+              Divider()
+              Text("8")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("8")
+              Divider()
+              Text("9")
+              Divider()
+              Text("10")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("11")
+              Divider()
+              Text("12")
+              Divider()
+              Text("13")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("14")
+              Divider()
+              Text("15")
+              Divider()
+              Text("16")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("17")
+              Divider()
+              Text("18")
+              Divider()
+              Text("19")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("20")
+              Divider()
+              Text("21")
+              Divider()
+              Text("22")
+              Divider()
+            }.font(.footnote)
+            VStack{
+              Text("23")
+              Divider()
+              Text("24")
+              Divider()
+            }.font(.footnote)
         }
-            
-/*
-            Text("H")
-            .font(.title)
-            .fontWeight(.semibold)
-            .frame(width: 50.0, height: 20.0)
-
-            List {
-            Text("6")
-            Text("7")
-            Text("8")
-            Text("9")
-            Text("10")
-            Text("11")
-            Text("12")
-            Text("13")
-            Text("14")
-            Text("15")
-            }.font(.caption)
-            .padding(0)
-            .lineSpacing(0)
-            
-            List {
-            Text("17")
-            Text("18")
-            Text("19")
-            Text("20")
-            Text("21")
-            Text("22")
-            Text("23")
-            Text("24")
-            }.font(.caption)
-            .padding(0)
-            .lineSpacing(0)
-        }
-        .border(Color.white, width: 0)
-        .padding(.vertical, 10 )
-        .padding(.horizontal, 0 )
- */
         
         VStack{
             Text("1")
@@ -75,8 +86,6 @@ struct ContentView: View {
             .frame(width: 40.0)
         }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
         .padding(.vertical, 10 )
-
-        /*.background(Color.red)*/
         
         VStack{
             Text("2")
@@ -95,7 +104,7 @@ struct ContentView: View {
             .fontWeight(.semibold)
                 
             Rectangle()
-            .fill(Color.gray)
+            .fill(Color(red: 0.33, green: 0.33, blue: 0.33, opacity: 0.3))
             .frame(width: 40.0)
         }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
         .padding(.vertical, 10 )
@@ -129,7 +138,7 @@ struct ContentView: View {
             .fontWeight(.semibold)
                 
             Rectangle()
-            .fill(Color.gray)
+            .fill(Color(red: 0.33, green: 0.33, blue: 0.33, opacity: 0.3))
             .frame(width: 50.0)
         }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
         .padding(.vertical, 10 )
@@ -138,8 +147,11 @@ struct ContentView: View {
             Text("7")
             .font(.title)
             .fontWeight(.semibold)
-   
-//test pour tranche horaires dans une journée
+                
+            Rectangle()
+            .fill(Color.blue)
+            .frame(width: 40.0, height: 50.0)
+            
             Rectangle()
             .fill(Color.green)
             .frame(width: 40.0, height: 150.0)
@@ -156,7 +168,7 @@ struct ContentView: View {
             .padding(1.0)
             
              Rectangle()
-             .fill(Color.white)
+            .fill(Color(red: 0.33, green: 0.33, blue: 0.33, opacity: 0.3))
              .frame(width: 40.0, height: 50.0)
              .padding(1.0)
             
@@ -176,15 +188,15 @@ struct ContentView: View {
              .padding(1.0)
             
         }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+        .padding(.vertical, 10 )
        
     }
     .padding(.horizontal, 30.0)
-    .padding(.vertical, 40.0)
+    .padding(.vertical, 20.0)
     
-    .navigationBarTitle(Text("Instagram"), displayMode: .inline).navigationBarItems(
-       leading: Image(systemName:"camera"),
-    trailing: Image(systemName:"paperplane"))
-        
+    .navigationBarTitle(Text("Fevrier 2020"), displayMode: .inline).navigationBarItems(
+       leading: Image(systemName:"calendar"),
+    trailing: Image(systemName:"text.badge.plus"))
         
     }
     

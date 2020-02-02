@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359EC9B423E7372400BF9BF1 /* VueJour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359EC9B323E7372400BF9BF1 /* VueJour.swift */; };
 		35CA235923E3281800805F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA235823E3281800805F77 /* AppDelegate.swift */; };
 		35CA235B23E3281800805F77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA235A23E3281800805F77 /* SceneDelegate.swift */; };
 		35CA235D23E3281800805F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CA235C23E3281800805F77 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		359EC9B323E7372400BF9BF1 /* VueJour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueJour.swift; sourceTree = "<group>"; };
 		35CA235523E3281800805F77 /* DrawCalendarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawCalendarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CA235823E3281800805F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35CA235A23E3281800805F77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				35CA235823E3281800805F77 /* AppDelegate.swift */,
 				35CA235A23E3281800805F77 /* SceneDelegate.swift */,
 				35CA235C23E3281800805F77 /* ContentView.swift */,
+				359EC9B323E7372400BF9BF1 /* VueJour.swift */,
 				35CA236C23E3359A00805F77 /* BarGraphView.swift */,
 				35CA236E23E3363900805F77 /* Report.swift */,
 				35CA235E23E3281A00805F77 /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 			files = (
 				35CA235923E3281800805F77 /* AppDelegate.swift in Sources */,
 				35CA236F23E3363900805F77 /* Report.swift in Sources */,
+				359EC9B423E7372400BF9BF1 /* VueJour.swift in Sources */,
 				35CA236D23E3359A00805F77 /* BarGraphView.swift in Sources */,
 				35CA235B23E3281800805F77 /* SceneDelegate.swift in Sources */,
 				35CA235D23E3281800805F77 /* ContentView.swift in Sources */,
