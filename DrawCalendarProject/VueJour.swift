@@ -10,7 +10,8 @@ import SwiftUI
 
 struct VueJour: View {
     var body: some View {
-    HStack{
+        NavigationView{
+            HStack{
         HStack{
             VStack{
                 Text("H")
@@ -74,7 +75,8 @@ struct VueJour: View {
                   Text("24")
                   Divider()
                 }.font(.footnote)
-            }
+            }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+            
             VStack{
                 Text("7 février 2020")
                 .font(.title)
@@ -158,9 +160,10 @@ struct VueJour: View {
         .padding(.horizontal, 30.0)
         .padding(.vertical, 20.0)
         
-        .navigationBarTitle(Text("7 Fevrier 2020"), displayMode: .inline).navigationBarItems(
+        .navigationBarTitle(Text("Agenda journalier"), displayMode: .inline).navigationBarItems(
            leading: Image(systemName:"calendar"),
         trailing: Image(systemName:"text.badge.plus"))
+    }
     }
         }
 }

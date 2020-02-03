@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
+        NavigationView{
     HStack{
         VStack{
             Text("H")
@@ -194,10 +194,11 @@ struct ContentView: View {
     .padding(.horizontal, 30.0)
     .padding(.vertical, 20.0)
     
-    .navigationBarTitle(Text("Fevrier 2020"), displayMode: .inline).navigationBarItems(
+    .navigationBarTitle(Text("Février 2020"), displayMode: .inline).navigationBarItems(
        leading: Image(systemName:"calendar"),
     trailing: Image(systemName:"text.badge.plus"))
-        
+       
+    }
     }
     
 }

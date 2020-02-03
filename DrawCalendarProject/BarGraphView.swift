@@ -12,6 +12,8 @@ struct BarGraphView: View {
     let reports: [Report]
     
     var body: some View {
+        NavigationView{
+        
         VStack{
             HStack(alignment: .lastTextBaseline){
                 ForEach(self.reports, id: \.activity) { report in BarView(report: report)
@@ -37,6 +39,8 @@ struct BarGraphView: View {
                leading: Image(systemName:"calendar"),
             trailing: Image(systemName:"paperclip"))
         }
+        
+    }
     }
     
 struct BarGraphView_Previews: PreviewProvider {
